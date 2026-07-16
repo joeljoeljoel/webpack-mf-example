@@ -1,0 +1,17 @@
+{
+  "name": "mf-types-path-repro",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Minimal reproduction: @module-federation/manifest hardcodes metaData.types.path/name to empty strings in mf-manifest.json",
+  "type": "module",
+  "scripts": {
+    "build": "webpack --mode production"
+  },
+  "devDependencies": {
+    "@module-federation/enhanced": "2.6.0",
+    "ts-loader": "^9.6.0",
+    "typescript": "^5.9.3",
+    "webpack": "^5.107.2",
+    "webpack-cli": "^7.0.2"
+  }
+}
